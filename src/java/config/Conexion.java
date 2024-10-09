@@ -9,9 +9,9 @@ import java.util.logging.Logger;
 
 public class Conexion {
     private Connection con;
-    private String url = "jdbc:mysql://localhost:3306/bdtiendaropa"; 
+    private String url = "mysql://root:qvulhhObYEgOXTgZrsDeTyXVVYIEApUs@autorack.proxy.rlwy.net:40691/railway"; 
     private String usuario = "root";
-    private String clave = "";
+    private String clave = "qvulhhObYEgOXTgZrsDeTyXVVYIEApUs";
 
     public Connection Conexion() { 
         try {
